@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <WebView
+        android:visibility="gone"
+        android:id="@+id/webvieww"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.googd.View.SwipeRefreshView
+        android:id="@+id/tuiweng_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:divider="@null"
+            android:scrollbars="none"
+            android:id="@+id/tu_List"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.googd.View.SwipeRefreshView>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_drag_showinpop"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="200dp"
+    android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/guang"
+            android:layout_margin="10dp"
+            android:background="@color/bai"
+            android:layout_gravity="right"
+            android:src="@drawable/cuo"
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="200dp"
+        android:layout_height="165dp">
+
+        <EditText
+            android:background="@null"
+            android:id="@+id/tv_showinpop"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/hei"
+            android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

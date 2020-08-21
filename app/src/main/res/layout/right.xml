@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/tmbai"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/toolbar"/>
+    </LinearLayout>
+       <androidx.viewpager.widget.ViewPager
+        android:layout_weight="1"
+        android:id="@+id/vie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.googd.View.Switch
+            android:tint="@color/hei"
+            android:id="@+id/d"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image_weight="20dp"
+            app:image_height="30dp"
+            android:text="@string/d"
+            android:src="@drawable/wyw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingPrefix" />
+        <android.googd.View.Switch
+            android:tint="@color/hei"
+            android:id="@+id/x"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image_weight="25dp"
+            app:image_height="30dp"
+            android:text="@string/x"
+            android:src="@drawable/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingPrefix" />
+        <android.googd.View.Switch
+            android:tint="@color/hei"
+            android:id="@+id/b"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:image_weight="20dp"
+            app:image_height="30dp"
+            android:text="@string/b"
+            android:src="@drawable/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingPrefix" />
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

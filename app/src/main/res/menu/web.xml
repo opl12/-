@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fhui"
+        android:orderInCategory="100"
+        android:title="网页返回"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/hui"
+        android:orderInCategory="100"
+        android:title="网页回调"
+        app:showAsAction="never" />
+</menu>

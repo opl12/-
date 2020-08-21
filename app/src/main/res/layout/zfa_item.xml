@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@color/tmbai"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image"
+          android:scaleType="centerCrop"
+          android:src="@drawable/jiazai"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"/>
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <TextView
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:id="@+id/tile"
+            android:text="Android开发:使用CardView实现卡片式设计 - 简书"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:id="@+id/tile1"
+            android:text="看到上面这个效果，就会想到让美工切一张圆角图片用imageview来实现，这也是一种实现的方式，实现起来也比较方便，且不用做什么兼容适配；其实android系统提供了CardView这个控件实现起来也很方便，同时还可以实现一些其他的效果。
+CardView是android5.0出现的一个Material Design风格的控件，extends FrameLayout，可以把它当做一个布局容器来使用；
+————————————————
+版权声明：本文为CSDN博主「刘孙猫咪」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wangwo1991/article/details/77396849"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="10dp"
+            android:id="@+id/time"
+            android:text="2020-10-10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+      </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

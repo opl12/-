@@ -1,0 +1,62 @@
+<resources>
+    <string name="m_r">让世界聆听你的故事</string>
+    <string name="m_b">2958474980</string>
+
+    <string name="app_name">青阅</string>
+    <string name="jx">青阅</string>
+    <string name="m">漫画</string>
+    <string name="mh">请输入要搜索的漫画</string>
+    <string name="x">阅赚</string>
+    <string name="widget">每日一段句</string>
+    <string name="key">cBtRX6o_sMQ0yig--6qb-GpfbKrx5SfE</string>
+    <string name="qq">2958474980</string>
+    <string name="ye">夜间</string>
+    <string name="rj">快赞自动化</string>
+    <string name="js">快赞自动化</string>
+    <string name="gx">检测更新</string>
+    <string name="d">图文</string>
+    <string name="y">音乐</string>
+    <string name="b">线报</string>
+    <string name="t">推荐</string>
+    <string name="s">电视剧</string>
+    <string name="z">综艺</string>
+    <string name="dm">动漫</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yinli</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">我的</string>
+    <string name="menu_slideshow">官网</string>
+
+    <string name="sz">设置</string>
+    <string name="gyu">关于与帮助</string>
+    <string name="cw">错误日志</string>
+    <string name="tuic">退出</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="zy">主页</string>
+    <string name="dbu">设置</string>
+    <string name="log">邮链</string>
+    <string name="x5">x5设置</string>
+    <string name="zti">删除缓存</string>
+    <string name="ipdl">ip代理</string>
+    <string name="ipsz">请选择ip设置</string>
+    <string name="accessibility_tip">极影</string>
+    <string name="accessibility_desc">用来自动点击全文</string>
+    <string name="ip">
+        192.168.1.1:8888
+    </string>
+    <string name="ipsss">api设置代理</string>
+    <string name="zdy">自定义ip</string>
+    <string name="ipszm">IP代理设置</string>
+
+    <string name="user">请输入账号</string>
+    <string name="pass">请输入密码</string>
+    <string name="dr">登入</string>
+    <string name="QQ">注册账号</string>
+    <string name="wj">忘记密码</string>
+</resources>

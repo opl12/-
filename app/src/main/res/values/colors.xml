@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="tmbai">#70FFFFFF</color>
+    <color name="bai">#FFFFFF</color>
+    <color name="hei">#000000</color>
+    <color name="hui">#D8D8D8</color>
+    <color name="d">#000000</color>
+    <color name="tm">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="jst">#FFE500</color>
+    <color name="no">#ECECEC</color>
+    <color name="bai_m">#FFFFFF</color>
+</resources>

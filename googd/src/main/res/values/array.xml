@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="URL">
+        <item>assets/xiwang.js?v0108</item>
+        <item>pic.windtch.com</item>
+        <item>daikuanfanli.com</item>
+    </string-array>
+
+</resources>

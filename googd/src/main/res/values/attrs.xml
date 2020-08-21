@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Switch">
+        <attr name="android:textColor" format="color"/>
+        <attr name="android:tint" format="color"/>
+        <attr name="android:text" format="string"/>
+        <attr name="android:src" format="reference"/>
+        <attr name="android:textSize" format="float"/>
+        <attr name="image_weight" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="image_height" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="toact">
+    <attr name="android:src" format="reference"/>
+    <attr name="android:color" format="color"/>
+    <attr name="android:text" format="string"/>
+    <attr name="src_w" format="integer">
+        <enum name="fill_parent" value="-1" />
+        <!-- The view should be as big as its parent (minus padding).
+             Introduced in API Level 8. -->
+        <enum name="match_parent" value="-1" />
+        <!-- The view should be only big enough to enclose its content (plus padding). -->
+        <enum name="wrap_content" value="-2" />
+    </attr>
+        <attr name="src_h" format="integer">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+    </attr>
+    </declare-styleable>
+    <declare-styleable name="ImageView_tint">
+        <attr name="tint" format="color"/>
+    </declare-styleable>
+</resources>
